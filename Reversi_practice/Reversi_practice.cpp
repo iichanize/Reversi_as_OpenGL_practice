@@ -5,6 +5,7 @@
 #include<GL/glut.h>
 #include<stdlib.h>
 #include<time.h>
+#define TITLE "Reversi ver1.11.5"
 
 int board[10][10] = {};
 int turn = 1;
@@ -918,7 +919,7 @@ int main(int argc, char *argv[]) {
 	glutInit(&argc, argv);
 	glutInitWindowSize(650, 500);
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE);
-	glutCreateWindow("Othello ver1.11.5");
+	glutCreateWindow(TITLE);
 	glutMouseFunc(mouse);
 	glutKeyboardFunc(keyboard);
 	//	glutReshapeFunc(resize);
