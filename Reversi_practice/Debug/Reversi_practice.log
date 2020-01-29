@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  Reversi_practice.cpp
+c:\users\ise\documents\visual studio 2017\workspace\reversi_practice\reversi_practice\reversi_practice.cpp(931): warning C4305: '引数': 'double' から 'GLclampf' へ切り詰めます。
+  Reversi_practice.vcxproj -> C:\Users\Ise\Documents\Visual Studio 2017\workspace\Reversi_practice\Debug\Reversi_practice.exe
